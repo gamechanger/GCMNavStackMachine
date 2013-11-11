@@ -25,4 +25,4 @@ popd
 git tag -a $1 -m "Create tag"
 git push origin $1
 
-pod push --allow-warnings gcspecs GCMNavStackMachine.podspec
+pod push gcspecs GCMNavStackMachine.podspec
