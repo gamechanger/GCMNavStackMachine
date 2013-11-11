@@ -26,8 +26,12 @@
     self.navigationController = navigationController;
     navigationController.delegate = self;
     self.globalHandlers = [[NSMutableDictionary alloc] init];
-    self.controllerEventHandlers = [[NSMapTable alloc] init];
-    self.controllerAppearanceHandlers = [[NSMapTable alloc] init];
+    self.controllerEventHandlers = [[NSMapTable alloc] initWithKeyOptions:NSMapTableObjectPointerPersonality | NSMapTableStrongMemory
+                                                             valueOptions:NSMapTableStrongMemory
+                                                                 capacity:5];
+    self.controllerAppearanceHandlers = [[NSMapTable alloc] initWithKeyOptions:NSMapTableObjectPointerPersonality | NSMapTableStrongMemory
+                                                                  valueOptions:NSMapTableStrongMemory
+                                                                      capacity:5];
   }
   return self;
 }
