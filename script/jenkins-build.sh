@@ -13,4 +13,4 @@ fi
 
 # clean out old stuff
 git reset --hard && git clean -fd
-rake test && echo "Running clang scan-build" && /Users/administrator/checker-274/scan-build -k -v -v -o $WORKSPACE/clangScanBuildReports xcodebuild -workspace GCMNavStackController.xcworkspace -scheme GCMNavStackController -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO clean build
+rake test && echo "Running clang scan-build" && /Users/administrator/checker-274/scan-build -k -v -v -o $WORKSPACE/clangScanBuildReports xcodebuild -workspace GCMNavStackMachine.xcworkspace -scheme GCMNavStackMachine -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO clean build
