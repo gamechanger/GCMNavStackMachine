@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6215EFF0182EF5C400028E76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6215EFEF182EF5C400028E76 /* Foundation.framework */; };
+		6215EFF5182EF5C400028E76 /* GCMNavStackMachine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6215EFF4182EF5C400028E76 /* GCMNavStackMachine.h */; };
+		6215EFF7182EF5C400028E76 /* GCMNavStackMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6215EFF6182EF5C400028E76 /* GCMNavStackMachine.m */; };
+		6215F033182FFAD500028E76 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6215F032182FFAD500028E76 /* SenTestingKit.framework */; };
+		6215F034182FFAD500028E76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6215EFEF182EF5C400028E76 /* Foundation.framework */; };
+		6215F035182FFAD500028E76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6215F000182EF5C400028E76 /* UIKit.framework */; };
+		6215F03B182FFAD500028E76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6215F039182FFAD500028E76 /* InfoPlist.strings */; };
+		6215F03D182FFAD500028E76 /* GCMNavStackMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6215F03C182FFAD500028E76 /* GCMNavStackMachineTests.m */; };
+		62DF5FC3182FFB8C004F6B2D /* libGCMNavStackMachine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6215EFEC182EF5C400028E76 /* libGCMNavStackMachine.a */; };
+		9896AA3237A44758834CD65A /* libPods-GCMNavStackMachineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E125D8FEC9A4CDD9AE2A4EC /* libPods-GCMNavStackMachineTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6215F03F182FFAD500028E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6215EFE4182EF5C400028E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6215EFEB182EF5C400028E76;
+			remoteInfo = GCMNavStackMachine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6215EFEA182EF5C400028E76 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				6215EFF5182EF5C400028E76 /* GCMNavStackMachine.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E125D8FEC9A4CDD9AE2A4EC /* libPods-GCMNavStackMachineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCMNavStackMachineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6215EFEC182EF5C400028E76 /* libGCMNavStackMachine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGCMNavStackMachine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6215EFEF182EF5C400028E76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6215EFF3182EF5C400028E76 /* GCMNavStackMachine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCMNavStackMachine-Prefix.pch"; sourceTree = "<group>"; };
+		6215EFF4182EF5C400028E76 /* GCMNavStackMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCMNavStackMachine.h; sourceTree = "<group>"; };
+		6215EFF6182EF5C400028E76 /* GCMNavStackMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCMNavStackMachine.m; sourceTree = "<group>"; };
+		6215EFFD182EF5C400028E76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6215F000182EF5C400028E76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6215F031182FFAD500028E76 /* GCMNavStackMachineTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCMNavStackMachineTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6215F032182FFAD500028E76 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6215F038182FFAD500028E76 /* GCMNavStackMachineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GCMNavStackMachineTests-Info.plist"; sourceTree = "<group>"; };
+		6215F03A182FFAD500028E76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6215F03C182FFAD500028E76 /* GCMNavStackMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCMNavStackMachineTests.m; sourceTree = "<group>"; };
+		6215F03E182FFAD500028E76 /* GCMNavStackMachineTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCMNavStackMachineTests-Prefix.pch"; sourceTree = "<group>"; };
+		6AC618534BB24692BC412629 /* Pods-GCMNavStackMachineTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCMNavStackMachineTests.xcconfig"; path = "../Pods/Pods-GCMNavStackMachineTests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6215EFE9182EF5C400028E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6215EFF0182EF5C400028E76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6215F02E182FFAD500028E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DF5FC3182FFB8C004F6B2D /* libGCMNavStackMachine.a in Frameworks */,
+				6215F033182FFAD500028E76 /* SenTestingKit.framework in Frameworks */,
+				6215F035182FFAD500028E76 /* UIKit.framework in Frameworks */,
+				6215F034182FFAD500028E76 /* Foundation.framework in Frameworks */,
+				9896AA3237A44758834CD65A /* libPods-GCMNavStackMachineTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6215EFE3182EF5C400028E76 = {
+			isa = PBXGroup;
+			children = (
+				6215EFF1182EF5C400028E76 /* GCMNavStackMachine */,
+				6215F036182FFAD500028E76 /* GCMNavStackMachineTests */,
+				6215EFEE182EF5C400028E76 /* Frameworks */,
+				6215EFED182EF5C400028E76 /* Products */,
+				6AC618534BB24692BC412629 /* Pods-GCMNavStackMachineTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		6215EFED182EF5C400028E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6215EFEC182EF5C400028E76 /* libGCMNavStackMachine.a */,
+				6215F031182FFAD500028E76 /* GCMNavStackMachineTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6215EFEE182EF5C400028E76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6215EFEF182EF5C400028E76 /* Foundation.framework */,
+				6215EFFD182EF5C400028E76 /* XCTest.framework */,
+				6215F000182EF5C400028E76 /* UIKit.framework */,
+				4E125D8FEC9A4CDD9AE2A4EC /* libPods-GCMNavStackMachineTests.a */,
+				6215F032182FFAD500028E76 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6215EFF1182EF5C400028E76 /* GCMNavStackMachine */ = {
+			isa = PBXGroup;
+			children = (
+				6215EFF4182EF5C400028E76 /* GCMNavStackMachine.h */,
+				6215EFF6182EF5C400028E76 /* GCMNavStackMachine.m */,
+				6215EFF2182EF5C400028E76 /* Supporting Files */,
+			);
+			path = GCMNavStackMachine;
+			sourceTree = "<group>";
+		};
+		6215EFF2182EF5C400028E76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6215EFF3182EF5C400028E76 /* GCMNavStackMachine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6215F036182FFAD500028E76 /* GCMNavStackMachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				6215F03C182FFAD500028E76 /* GCMNavStackMachineTests.m */,
+				6215F037182FFAD500028E76 /* Supporting Files */,
+			);
+			path = GCMNavStackMachineTests;
+			sourceTree = "<group>";
+		};
+		6215F037182FFAD500028E76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6215F038182FFAD500028E76 /* GCMNavStackMachineTests-Info.plist */,
+				6215F039182FFAD500028E76 /* InfoPlist.strings */,
+				6215F03E182FFAD500028E76 /* GCMNavStackMachineTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6215EFEB182EF5C400028E76 /* GCMNavStackMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6215F00F182EF5C400028E76 /* Build configuration list for PBXNativeTarget "GCMNavStackMachine" */;
+			buildPhases = (
+				6215EFE8182EF5C400028E76 /* Sources */,
+				6215EFE9182EF5C400028E76 /* Frameworks */,
+				6215EFEA182EF5C400028E76 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCMNavStackMachine;
+			productName = GCMNavStackMachine;
+			productReference = 6215EFEC182EF5C400028E76 /* libGCMNavStackMachine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6215F030182FFAD500028E76 /* GCMNavStackMachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6215F041182FFAD500028E76 /* Build configuration list for PBXNativeTarget "GCMNavStackMachineTests" */;
+			buildPhases = (
+				270489D94B9745A481A971BC /* Check Pods Manifest.lock */,
+				6215F02D182FFAD500028E76 /* Sources */,
+				6215F02E182FFAD500028E76 /* Frameworks */,
+				6215F02F182FFAD500028E76 /* Resources */,
+				676C97681D424A9AB8CAB85E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6215F040182FFAD500028E76 /* PBXTargetDependency */,
+			);
+			name = GCMNavStackMachineTests;
+			productName = GCMNavStackMachineTests;
+			productReference = 6215F031182FFAD500028E76 /* GCMNavStackMachineTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6215EFE4182EF5C400028E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = GameChanger;
+				TargetAttributes = {
+					6215F030182FFAD500028E76 = {
+						TestTargetID = 6215EFEB182EF5C400028E76 /* GCMNavStackMachine */;
+					};
+				};
+			};
+			buildConfigurationList = 6215EFE7182EF5C400028E76 /* Build configuration list for PBXProject "GCMNavStackMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6215EFE3182EF5C400028E76;
+			productRefGroup = 6215EFED182EF5C400028E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6215EFEB182EF5C400028E76 /* GCMNavStackMachine */,
+				6215F030182FFAD500028E76 /* GCMNavStackMachineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6215F02F182FFAD500028E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6215F03B182FFAD500028E76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		270489D94B9745A481A971BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		676C97681D424A9AB8CAB85E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-GCMNavStackMachineTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6215EFE8182EF5C400028E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6215EFF7182EF5C400028E76 /* GCMNavStackMachine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6215F02D182FFAD500028E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6215F03D182FFAD500028E76 /* GCMNavStackMachineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6215F040182FFAD500028E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6215EFEB182EF5C400028E76 /* GCMNavStackMachine */;
+			targetProxy = 6215F03F182FFAD500028E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6215F039182FFAD500028E76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6215F03A182FFAD500028E76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6215F00D182EF5C400028E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6215F00E182EF5C400028E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6215F010182EF5C400028E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GCMNavStackMachine.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GCMNavStackMachine/GCMNavStackMachine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6215F011182EF5C400028E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GCMNavStackMachine.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GCMNavStackMachine/GCMNavStackMachine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6215F042182FFAD500028E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC618534BB24692BC412629 /* Pods-GCMNavStackMachineTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GCMNavStackMachineTests/GCMNavStackMachineTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GCMNavStackMachineTests/GCMNavStackMachineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6215F043182FFAD500028E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC618534BB24692BC412629 /* Pods-GCMNavStackMachineTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GCMNavStackMachineTests/GCMNavStackMachineTests-Prefix.pch";
+				INFOPLIST_FILE = "GCMNavStackMachineTests/GCMNavStackMachineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6215EFE7182EF5C400028E76 /* Build configuration list for PBXProject "GCMNavStackMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6215F00D182EF5C400028E76 /* Debug */,
+				6215F00E182EF5C400028E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6215F00F182EF5C400028E76 /* Build configuration list for PBXNativeTarget "GCMNavStackMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6215F010182EF5C400028E76 /* Debug */,
+				6215F011182EF5C400028E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6215F041182FFAD500028E76 /* Build configuration list for PBXNativeTarget "GCMNavStackMachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6215F042182FFAD500028E76 /* Debug */,
+				6215F043182FFAD500028E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6215EFE4182EF5C400028E76 /* Project object */;
+}
