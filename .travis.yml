@@ -4,5 +4,8 @@ cache: bundler
 notifications:
   email: false
   hipchat:
+    template:
+      - '%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message} (<a href="%{build_url}">Details</a>/<a href="%{compare_url}">Change view</a>)'
+    format: html
     rooms:
       secure: L5JUr9o6ZDP6eaJQ1GnY7oFu1ojI3GNZ+59gSfnmXvn+F3grbHOA6jK5ZNMn/gz4GwDvdrqZ7tU/m7uNLMah6hlyfJCUSPKfMZb/hEPrdqIvRYrT1z42wS2VOFvHmiSybE/5n5uzFLPHUh3/HkgsZpKTDOGaETWHpgLV08qVBbQ=
