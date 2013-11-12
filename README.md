@@ -1,6 +1,8 @@
 GCMNavStackMachine
 ==================
 
+![Build status](https://travis-ci.org/gamechanger/GCMNavStackMachine.png)
+
 `GCMNavStackMachine` is a state machine that's backed by a UINavigationController. The API is inspired by
 [YBStatechart](https://github.com/ronaldmannak/YBStatechart), but we've tailored it specifically to suit
 UINavigationControllers.
