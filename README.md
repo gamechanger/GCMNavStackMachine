@@ -37,7 +37,7 @@ vc2.delegate = self;
   [weakSelf.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }];
 [_stackMachine.onEvent:@"cancel" doBlock:^(id payload){
-  [weakSelf cancel]'
+  [weakSelf cancel];
   [weakSelf.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }];
 ...
