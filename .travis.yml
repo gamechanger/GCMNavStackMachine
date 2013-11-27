@@ -5,7 +5,10 @@ before_install:
   - brew install xctool
   - rvm use 1.9.3
 script: rake test
-cache: bundler
+cache:
+  - bundler
+  - directories:
+    - Pods
 notifications:
   email: false
   hipchat:
