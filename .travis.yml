@@ -1,7 +1,14 @@
 language: objective-c
-before_install: rvm use 1.9.3
+before_install:
+  - brew update
+  - brew unlink xctool
+  - brew install xctool
+  - rvm use 1.9.3
 script: rake test
-cache: bundler
+cache:
+  bundler: true
+  directories:
+  - Pods
 notifications:
   email: false
   hipchat:
