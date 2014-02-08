@@ -3,7 +3,9 @@ before_install:
   - brew update
   - brew unlink xctool
   - brew install xctool
-  - rvm use 1.9.3
+  - rvm get stable
+  - rvm install 2.1.0
+  - rvm use 2.1.0
 script: rake test
 cache:
   bundler: true
