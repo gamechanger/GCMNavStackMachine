@@ -59,8 +59,8 @@
   [self.controllerAppearanceHandlers setObject:block forKey:controller];
 }
 
-- (void)dispatchEvent:(NSString *)event withPayload:(id)payload {
-  void (^block)(id) = [self.controllerEventHandlers objectForKey:self.navigationController.topViewController][event];
+- (void)dispatchEvent:(NSString *)event withPayload:(id)payload forController:(UIViewController *)controller {
+  void (^block)(id) = [self.controllerEventHandlers objectForKey:controller][event];
   if ( block ) {
     block(payload);
   }
@@ -69,6 +69,10 @@
   if ( block ) {
     block(payload);
   }
+}
+
+- (void)dispatchEvent:(NSString *)event withPayload:(id)payload {
+    [self dispatchEvent:event withPayload:payload forController:self.navigationController.topViewController];
 }
 
 - (void)dispatchEvent:(NSString *)event {
