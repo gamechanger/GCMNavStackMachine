@@ -15,6 +15,7 @@
 - (id)initWithNavigationController:(UINavigationController *)navigationController;
 
 - (void)onEvent:(NSString *)event forController:(UIViewController *)controller doBlock:(void (^)(id payload))block;
+- (void)dispatchEvent:(NSString *)event withPayload:(id)payload forController:(UIViewController *)controller;
 - (void)dispatchEvent:(NSString *)event withPayload:(id)payload;
 - (void)dispatchEvent:(NSString *)event;
 - (void)onEvent:(NSString *)event doBlock:(void (^)(id payload))block;
